@@ -5,13 +5,23 @@ This will try to give you one or simulate one for you.
 
 ## Installation
 
+N/A
 
+## Usage
 
-## TODO
+N/A
 
+## TODO/thoughs
+
+- make this pip installable!
 - do something like (https://github.com/praetorian-inc/pyshell)[pyshell] but
   more flexible and also support pwntools tubes.
+  - command history (i.e. `./.gimmeshellhist`)
+  - tab completion
 - add reverse shell helper scripts
   - start reverse shell listener (maybe on remote host?)
   - try some tricks to get a reverse shell (nc, bash)
-- something like a minimal protocol for sending/receiving commands
+- a minimal "network" protocol for sending/receiving commands? for each command
+  we execute we'd need
+  - the exit status
+  - separate stderr/stdout (if possible)
