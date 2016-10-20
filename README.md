@@ -13,8 +13,8 @@ N/A
 
 ## TODO/thoughs
 
-- make this pip installable!
-- do something like (https://github.com/praetorian-inc/pyshell)[pyshell] but
+- ~~make this pip installable!~~
+- do something like [pyshell](https://github.com/praetorian-inc/pyshell) but
   more flexible and also support pwntools tubes.
   - command history (i.e. `./.gimmeshellhist`)
   - tab completion
@@ -25,3 +25,4 @@ N/A
   we execute we'd need
   - the exit status
   - separate stderr/stdout (if possible)
+- can we somehow launch an ssh server
